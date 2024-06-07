@@ -1,0 +1,57 @@
+nav{
+    background-color: rgba(17, 31, 233, 0.884);
+}
+
+img{
+    height: 600px;
+    
+}
+
+h3, h2{
+    color: white;
+}
+
+/**/
+.titleForm{
+    text-align: center;
+    color: red;
+}
+
+.buton{
+    background-color: rgba(17, 31, 233, 0.884);
+    margin-left: 190px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+label{
+    margin-right: 15px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.formulario{
+    margin-top: 30px;
+    background-color: bisque;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 40px;
+    border-radius: 60px;
+}
+
+/**/
+
+footer img {
+    height: 100px;
+    width: 100%;
+}
+
+.imLog img{
+    height: 100px;
+    width: 100%;
+}

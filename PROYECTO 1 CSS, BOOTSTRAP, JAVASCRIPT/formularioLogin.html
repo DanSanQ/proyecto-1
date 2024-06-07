@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formularioStyle.css">
+    <script src="formularioScript.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light px-5">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="index.html"><h2>Comercial "PARDO" herramientas y otros</h2></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-5">
+                    <a class="nav-link active fw-bold" aria-current="page" href="index.html"><h3>Inicio</h3></a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link active fw-bold" href="products.html"><h3>Catalogo</h3></a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link active fw-bold" href="formularioLogin.html"><h3>Formulario de registro</h3></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="imLog">
+      <img src="imagenes/3-logos-ult.png" alt="imagenDeLos3Logos">
+    </div>
+
+    <!--formulario-->
+
+    <div class="formulario">
+        <h2 class="titleForm">Formulario de Registro</h2>
+        <form id="formr">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+      
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+      
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+      
+            <label for="pais">País:</label>
+            <input type="text" id="pais" name="pais"><br><br>
+      
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+      
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required><br><br>
+      
+            <label for="confirmar_contrasena">Confirmar contraseña:</label>
+            <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required><br><br>
+      
+            <input class="buton" type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <!--formulario-->
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+      <img src="imagenes/3-logos-ult.png" alt="imagenDeLos3Logos">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contacto</h5>
+            <p>
+                Dirección: Avenida Buenos Aires<br>
+                Teléfono: +591 60308030<br>
+                Email: info@pardo.com
+            </p>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Enlaces Rápidos</h5>
+            <ul class="list-unstyled mb-1">
+              <li><a href="#" class="text-dark">Política de Privacidad</a></li>
+              <li><a href="#" class="text-dark">Términos de Servicio</a></li>
+              <li><a href="#" class="text-dark">FAQ</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Síguenos</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="text-dark"><i class="facebook-f">Facebook</i></a></li>
+              <li><a href="#" class="text-dark"><i class="twitter">Twitter</i></a></li>
+              <li><a href="#" class="text-dark"><i class="instagram">Instagram</i></a></li>
+              <li><a href="#" class="text-dark"><i class="linkedin">Linkedin</i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center p-3 bg-dark text-white">
+        © 2024 Tu Empresa. Todos los derechos reservados.
+      </div>
+    </footer>
+
+    <script>
+      document.body.style.backgroundColor = "yellow";
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

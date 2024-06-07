@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light px-5">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="index.html"><h2>Comercial "PARDO" herramientas y otros</h2></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-5">
+                    <a class="nav-link active fw-bold" aria-current="page" href="index.html"><h3>Inicio</h3></a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link active fw-bold" href="products.html"><h3>Catalogo</h3></a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link active fw-bold" href="formularioLogin.html"><h3>Formulario de registro</h3></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="imLog">
+      <img src="imagenes/3-logos-ult.png" alt="imagenDeLos3Logos">
+    </div>
+
+    <div class="col-10 mx-auto">
+      <div class="mt-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/cinta-aislante-descuento.jpg" class="d-block w-70 mx-auto" alt="cintaAislante">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/ESMA-9N4 DESCUENTO.jpg" class="d-block w-65 mx-auto" alt="esmerilador">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/disco-descuento.jpg" class="d-block w-65 mx-auto" alt="disco">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon btn btn-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon btn btn-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button onclick="descuento()" id="granOfer"><p>ADQUIRIR OFERTA</p></button>
+    <div class="titulo1">
+      <h1>Descuentos Actuales</h1>
+    </div>
+
+<!--DESCUENTOS-->
+
+    <div class="containerDesct">
+      <div class="item1"><p><b style="color: red;">Compresor de aire, lubricado,horizontal 20L 2½HP 127V Pretul</b> El compresor de aire Pretul es una poderosa herramienta que ofrece rendimiento y fiabilidad. Con capacidad de 20 litros y un motor de 2½HP, proporciona un flujo de aire constante para una variedad de aplicaciones. Su diseño horizontal y lubricado garantiza una larga vida útil y un funcionamiento suave. Ideal para tareas de inflado, pintura y herramientas neumáticas en tu taller o sitio de trabajo.
+        <a href="https://www.truper.com/ficha_tecnica_pdf/views/ficha-print.php?id=145259"> Ver ficha tecnica</a></p></div>
+      <button onclick="verdeButon()" class="item2">añadir al carrito <b style="color: white;">(10% DTO.)</b></button>
+      <button onclick="rojoButon()" class="item3">eliminar del carrito</button>
+      <div class="item4"><img src="imagenes/COMP-20LP.jpg" alt=""></div>
+      <button onclick="window.location.href='https://www.youtube.com/watch?v=PtUQSHIUvFU'" class="item5"><img src="imagenes/CAP-4NB.jpg" alt=""></button>
+      <div class="item6"><p><b style="color: red;">Carretilla 4.5 ft3 gris Neumática, bastidor tubular, Pretul</b> La carretilla Pretul ofrece robustez y practicidad para tus necesidades de transporte. Con un diseño de bastidor tubular y neumáticos resistentes, es perfecta para mover cargas de hasta 4.5 pies cúbicos con facilidad. Su color gris le otorga un aspecto moderno y versátil, ideal para una variedad de entornos de trabajo.
+        <a href="https://www.truper.com/ficha_tecnica_pdf/views/ficha-print.php?id=252515"> Ver ficha tecnica</a></p></div>
+      <button onclick="verdeButon()" class="item7">añadir al carrito <b style="color: white;">(15% DTO.)</b></button>
+      <button onclick="rojoButon()" class="item8">eliminar del carrito</button>
+      <div class="item9"><p><b style="color: red;">Esmeriladora angular 4-1/2", 700W, PRETUL</b> Potente y versátil, esta esmeriladora angular de PRETUL es perfecta para una amplia gama de aplicaciones de corte y desbaste. Con 700W de potencia, ofrece un rendimiento confiable y preciso en materiales diversos. Su diseño compacto y ergonómico la hace fácil de manejar, ideal tanto para usuarios profesionales como domésticos.
+        <a href="https://www.truper.com/ficha_tecnica_pdf/views/ficha-print.php?id=3643"> Ver ficha tecnica</a></p></div>
+      <button onclick="verdeButon()" class="item10">añadir al carrito <b style="color: white;">(13% DTO.)</b></button>
+      <button onclick="rojoButon()" class="item11">eliminar del carrito</button>
+      <div class="item12"><img src="imagenes/ESMA-4-1-2P2.jpg" alt=""></div>
+    </div>
+
+<!--DESCUENTOS-->
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+      <img src="imagenes/3-logos-ult.png" alt="imagenDeLos3Logos">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contacto</h5>
+            <p>
+              Dirección: Avenida Buenos Aires<br>
+              Teléfono: +591 60308030<br>
+              Email: info@pardo.com
+            </p>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Enlaces Rápidos</h5>
+            <ul class="list-unstyled mb-1">
+              <li><a href="#" class="text-dark">Política de Privacidad</a></li>
+              <li><a href="#" class="text-dark">Términos de Servicio</a></li>
+              <li><a href="#" class="text-dark">FAQ</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Síguenos</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="text-dark"><i class="facebook-f">Facebook</i></a></li>
+              <li><a href="#" class="text-dark"><i class="twitter">Twitter</i></a></li>
+              <li><a href="#" class="text-dark"><i class="instagram">Instagram</i></a></li>
+              <li><a href="#" class="text-dark"><i class="linkedin">Linkedin</i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center p-3 bg-dark text-white">
+        © 2024 Tu Empresa. Todos los derechos reservados.
+      </div>
+    </footer>
+
+    <script>
+      document.body.style.backgroundColor = "yellow";
+  </script>
+  
+  <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
